@@ -1,0 +1,135 @@
+/* importation des polices */
+@import url('https://fonts.googleapis.com/css?family=Kreon|Lobster');
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Kreon', serif;
+	background-color: #454648;
+}
+
+#blocGauche {
+	position:absolute;
+	bottom:0%;
+	left: 0%;
+	right: 0%;
+	height: 100%;
+	width: 30%;
+	color: #55C3BB;
+}
+
+#blocDroite {
+	position: absolute;
+	bottom:0%;
+	left: 30%;
+	right: 0%;
+	height: 100%;
+	width: 70%;
+}
+
+#photo {
+	margin-top: 20px;
+	margin-left: 25%;
+	border: 1px solid black;
+	border-radius: 50%;
+}
+
+/* classe donnant leur formalisme aux blocs à l'intérieur du bloc gauche */
+.conteneurGauche {
+	position: relative;
+	width: 80%;
+	margin-left: 5%;
+	border: 2px solid black;
+	border-radius: 20px;
+	padding: 2%;
+}
+
+#mail {
+	text-align: center;
+}
+
+#télécharger {
+	margin-top: 100%;
+	margin-right: 10px;
+	text-align: right;
+}
+
+#boutonTélécharger {
+	color: white;
+	font-size: 15pt;
+}
+
+/* style des titres */
+.titre {
+	margin-left: 5px;
+	color: black;
+	font-family: 'Lobster', cursive;
+	font-size: 20pt;
+}
+
+#titrePrincipal {
+	height: 20%;
+	margin-top: 5%;
+	text-align: center;
+}
+
+hr {
+	height: 3pt;
+	width: 60%;
+	background-color: black;
+}
+
+#blocFormation {
+	color: #454648;
+	background-color: #55C3BB;
+	padding: 5px;
+}
+
+/* Classe qui change la couleur de la police et  change
+ la position du texte dans la partie compétence */
+.competences{
+	color:#A3B0AF;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+/* Classe qui aligne les blocs de compétence professionnelles */
+.blocComp {
+	display: inline-block;
+	width: 25%;
+	margin: 10px;
+}
+
+/* classe donnant un background blanc */
+.white {
+	background-color: white;
+}
+
+#competencesTechniques {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 30%;
+	height: 15%;
+	padding: 5px;
+}
+
+#blocProjetsPlusXp {
+	padding: 5px;
+	color: #454648;
+	background-color: #A3B0AF;
+}
+
+footer {
+	position: absolute;
+	margin-top: 125%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 100%;
+    background-color: #55C3BB;
+    text-align: center;
+}
+
+#github {
+	margin-right: 100px;
+}
